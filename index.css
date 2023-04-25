@@ -1,0 +1,265 @@
+
+@font-face {
+    font-family: 'nhas';
+    src: url('nhaasgroteskdsstd-55rg-webfont.woff2') format('woff2'),
+         url('nhaasgroteskdsstd-55rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*{
+    
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #21252A;
+}
+
+#cloud{
+    position: absolute;
+    top: 11%;
+    bottom: 0;
+    
+    width: 130px;
+}
+
+#s{
+    width: 130px;
+    margin-bottom: -30px;
+}
+
+.main{
+
+    font-family: "nhas";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 38%;
+    padding-bottom: 30px;
+    align-items: center;
+    color: white;
+    
+    margin-bottom: 40px;
+
+
+}
+
+.main h1{
+    text-align: center;
+
+}
+
+
+.main p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+button{
+    padding: 12px 70px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: wheat;
+    font-family: "nhas";
+
+}
+
+
+button:hover{
+
+    transition: 500ms;
+    transform: scale(1.05);
+    transition: 200ms;
+}
+
+
+
+/*CARD*/
+
+.content-cards{
+    
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+.card{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   border: 1px solid;
+   margin: 10px;
+   width: 30%;
+   border-radius: 8px;
+   color: #21252A;
+   cursor: pointer;
+   background-color: wheat;
+}
+
+.card:hover{
+
+    background-color: rgba(248, 230, 198, 0.848);
+
+}
+
+
+/*FOOTER*/
+
+
+.footer{
+
+    font-family: "nhas";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 38%;
+    padding-bottom: 30px;
+    align-items: center;
+    color: white;
+    margin-top: -30px;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.socials img{
+    width: 60px;
+  
+    cursor: pointer;
+
+}
+
+#s{
+    width: 170px;
+}
+
+@media (max-width: 946px) {
+
+    #s{
+        width: 130px;
+        margin-bottom: -40px;
+    }
+
+    .content-cards{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .card{
+
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border: 1px solid;
+        margin: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+  
+    }
+
+}
+
+@media (max-width: 446px) {
+
+    body{
+        height: 140vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #up{
+        margin-top: 200px;
+    }
+
+
+    .main{
+        font-family: "nhas";
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    #s{
+        width: 130px;
+        margin-bottom: -30px;
+    }
+
+    .content-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card{
+
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border: 1px solid;
+        margin: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none; 
+    }
+
+
+    button{
+        padding: 12px 70px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        color: #000000;
+        border: 1px solid black;
+        font-family: "nhas";
+    
+    }
+
+    .footer{
+        text-align: center;
+        width: 58%;
+    }
+
+}

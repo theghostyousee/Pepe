@@ -1,0 +1,28 @@
+Uri: https://orion-fi.xyz/
+File Name: C:\Downloaded Web Sites\orion-fi.xyz\index.htm
+Content Type: text/html
+
+Uri: https://orion-fi.xyz/cloud.png
+File Name: C:\Downloaded Web Sites\orion-fi.xyz\cloud.png
+Content Type: image/png
+
+Uri: https://orion-fi.xyz/index.css
+File Name: C:\Downloaded Web Sites\orion-fi.xyz\index.css
+Content Type: text/css
+
+Uri: https://orion-fi.xyz/logos.ico
+File Name: C:\Downloaded Web Sites\orion-fi.xyz\logos.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://orion-fi.xyz/nhaasgroteskdsstd-55rg-webfont.woff
+File Name: C:\Downloaded Web Sites\orion-fi.xyz\nhaasgroteskdsstd-55rg-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://orion-fi.xyz/nhaasgroteskdsstd-55rg-webfont.woff2
+File Name: C:\Downloaded Web Sites\orion-fi.xyz\nhaasgroteskdsstd-55rg-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://orion-fi.xyz/one.svg
+File Name: C:\Downloaded Web Sites\orion-fi.xyz\one.svg
+Content Type: image/svg+xml
+
